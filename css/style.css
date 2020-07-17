@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lato&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper-slide {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.slider-content {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-common {
+    width: 120px;
+    font-size: 14px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 5px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+}
+
+.btn-lg {
+    background: #E91E63;
+    border-color: #E91E63;
+}
+
+.btn-lg:hover {
+    background: #F50057;
+    border-color: #F50057;
+}
+
+.btn-border {
+    background: transparent;
+    border-color: #fff;
+}
+
+.btn-border:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+@media screen and (max-width: 575.98px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
+    h1 {
+        font-size: 38px;
+    }
+}
+
+
+
+
+
+
+
+
